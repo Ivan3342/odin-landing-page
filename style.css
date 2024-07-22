@@ -121,17 +121,39 @@ body {
 }
 
 .cta-container {
-    display: flex; 
+    width: 50vw;
+    margin: 100px auto;
+    display: flex;
+    flex: 1; 
     justify-content: space-between;
     align-items: end;
+    background-color: #3882F6;
+    padding: 70px 140px;
 }
 
 .cta-txt p{
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 .cta-title {
-    font-size: 15px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.cta-btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    padding: 8px 16px;
+    border: 2px white solid;
+}
+
+.rounded-corners {
+    border-radius: 7px;
 }
 
