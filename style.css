@@ -37,20 +37,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
+    gap: 16px;
 }
 
-.hero-txt {
+.hero-box {
     width: 30vw;
-    height: 15vw;
-    padding: 20px;
+    height: 14vw;
 }
 
 .hero-main-txt {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin: -10px;
+    text-align: left;
+    text-wrap: wrap;
 }
 
 .hero-secondary-txt {
@@ -73,8 +74,6 @@ body {
 .hero-img {
     background: gray;
     color: black;
-    width: 30vw;
-    height: 15vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,3 +106,32 @@ body {
     color: #1f2937;
     font-size: 36px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    padding: 100px 500px;
+}
+
+.quote-txt {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.cta-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cta-txt p{
+    padding: 0;
+    margin: 0;
+}
+
+.cta-title {
+    font-size: 15px;
+}
+
