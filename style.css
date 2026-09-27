@@ -158,6 +158,35 @@ body {
     font-size: 28px;
 }
 
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--background-color);
+    margin: 84px 168px;
+    border-radius: 12px;
+    padding: 48px;
+}
+
+.call-to-action h2 {
+    color: var(--text-color);
+}
+
+.call-to-action p {
+    color: var(--text-color)
+}
+
+.call-to-action button {
+    padding: 7px 21px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+    background: transparent;
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
 .footer {
     display: flex;
     align-items: center;
